@@ -1,4 +1,4 @@
-# GreatFET Crocus
+# Crocus
 A GreatFET Neighbor for the Nordic nRF24L01+
 
 Required KiCad dependency:
