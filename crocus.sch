@@ -1011,11 +1011,9 @@ F 6 "RES 10K OHM 1/10W 5% 0603 SMD" H 2000 3500 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 3750 2000 3650
-Wire Wire Line
 	2000 3350 2000 3050
 Text Notes 800  4250 0    40   ~ 0
-Default I2C address set by resistors:\n0x20 (7-bit format)
+Default I2C address set by resistors:\n0x27 (7-bit format)
 Text Notes 9900 2200 0    40   ~ 0
 NMI/P4_0
 Text Label 9950 6400 2    40   ~ 0
@@ -1606,19 +1604,6 @@ F 4 "DNP" H 900 1900 60  0001 C CNN "Note"
 	-1   0    0    1   
 $EndComp
 Connection ~ 600  3250
-Wire Wire Line
-	600  3750 600  3650
-$Comp
-L power:GND #PWR035
-U 1 1 560666F5
-P 600 3750
-F 0 "#PWR035" H 600 3500 50  0001 C CNN
-F 1 "GND" H 600 3600 50  0000 C CNN
-F 2 "" H 600 3750 60  0000 C CNN
-F 3 "" H 600 3750 60  0000 C CNN
-	1    600  3750
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R3
 U 1 1 560662F3
@@ -1679,30 +1664,6 @@ Wire Wire Line
 Wire Wire Line
 	600  3250 2600 3250
 $Comp
-L power:GND #PWR036
-U 1 1 56067F1F
-P 1500 3750
-F 0 "#PWR036" H 1500 3500 50  0001 C CNN
-F 1 "GND" H 1500 3600 50  0000 C CNN
-F 2 "" H 1500 3750 60  0000 C CNN
-F 3 "" H 1500 3750 60  0000 C CNN
-	1    1500 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR034
-U 1 1 56066602
-P 2000 3750
-F 0 "#PWR034" H 2000 3500 50  0001 C CNN
-F 1 "GND" H 2000 3600 50  0000 C CNN
-F 2 "" H 2000 3750 60  0000 C CNN
-F 3 "" H 2000 3750 60  0000 C CNN
-	1    2000 3750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1500 3750 1500 3650
-$Comp
 L Device:R R4
 U 1 1 5606618C
 P 1500 3500
@@ -1734,4 +1695,43 @@ Wire Wire Line
 Connection ~ 2450 3050
 Wire Wire Line
 	2450 3050 2600 3050
+$Comp
+L power:VCC #PWR?
+U 1 1 5DC9DB1D
+P 600 3800
+F 0 "#PWR?" H 600 3650 50  0001 C CNN
+F 1 "VCC" H 618 3973 50  0000 C CNN
+F 2 "" H 600 3800 50  0001 C CNN
+F 3 "" H 600 3800 50  0001 C CNN
+	1    600  3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5DC9F634
+P 1500 3800
+F 0 "#PWR?" H 1500 3650 50  0001 C CNN
+F 1 "VCC" H 1518 3973 50  0000 C CNN
+F 2 "" H 1500 3800 50  0001 C CNN
+F 3 "" H 1500 3800 50  0001 C CNN
+	1    1500 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5DCAC013
+P 2000 3800
+F 0 "#PWR?" H 2000 3650 50  0001 C CNN
+F 1 "VCC" H 2018 3973 50  0000 C CNN
+F 2 "" H 2000 3800 50  0001 C CNN
+F 3 "" H 2000 3800 50  0001 C CNN
+	1    2000 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	600  3650 600  3800
+Wire Wire Line
+	1500 3650 1500 3800
+Wire Wire Line
+	2000 3650 2000 3800
 $EndSCHEMATC
