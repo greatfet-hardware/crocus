@@ -27,8 +27,8 @@ FIXME: We don't have any firmware yet, but we should implement capabilities simi
 signal  | pin     | alt1  | alt2
 --------|---------|-------|-----
 SCK     | J1.38   | J2.32 |
-MOSI    | J1.39   | J2.30 |
-MISO    | J1.40   | J2.38 |
+COPI    | J1.39   | J2.30 |
+CIPO    | J1.40   | J2.38 |
 CSN     | via I2C | J1.37 | J1.29
 CE      | via I2C | J2.9  | J2.21
 SDA     | J2.39   |       |

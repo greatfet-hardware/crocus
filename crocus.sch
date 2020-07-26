@@ -59,9 +59,9 @@ F 7 "Alternate: https://www.adafruit.com/products/2223" H 9350 5600 60  0001 C C
 	1    0    0    -1  
 $EndComp
 Text Label 9850 6600 2    40   ~ 0
-MISO
+CIPO
 Text Label 8950 6600 0    40   ~ 0
-MOSI
+COPI
 Text Label 9850 6500 2    40   ~ 0
 SCK
 Text Label 8850 6500 0    40   ~ 0
@@ -73,7 +73,7 @@ P1_4
 Text Notes 9900 6500 0    40   ~ 0
 P1_19
 Text Notes 8800 6500 2    40   ~ 0
-SSEL/P1_20
+CS/P1_20
 Text Label 9950 4000 2    40   ~ 0
 I2C0_SCL
 Text Label 8850 4000 0    40   ~ 0
@@ -305,9 +305,9 @@ $EndComp
 Text Label 5000 3650 0    40   ~ 0
 SCK
 Text Label 5000 3750 0    40   ~ 0
-MOSI
+COPI
 Text Label 5000 3850 0    40   ~ 0
-MISO
+CIPO
 $Comp
 L Device:Crystal Y1
 U 1 1 5605026E
@@ -1025,9 +1025,9 @@ SCK_ALT1
 Text Notes 10050 3600 0    40   ~ 0
 P3_3
 Text Label 10000 3900 2    40   ~ 0
-MISO_ALT1
+CIPO_ALT1
 Text Label 10000 3500 2    40   ~ 0
-MOSI_ALT1
+COPI_ALT1
 Text Notes 10050 3500 0    40   ~ 0
 P3_7
 Text Notes 10050 3900 0    40   ~ 0
@@ -1216,17 +1216,17 @@ Wire Wire Line
 Wire Wire Line
 	4500 5250 4150 5250
 Text Label 4500 5600 2    40   ~ 0
-MOSI_ALT1
+COPI_ALT1
 Text Label 3550 5600 0    40   ~ 0
-MOSI
+COPI
 Wire Wire Line
 	3550 5600 3750 5600
 Wire Wire Line
 	4500 5600 4150 5600
 Text Label 4500 5900 2    40   ~ 0
-MISO_ALT1
+CIPO_ALT1
 Text Label 3550 5900 0    40   ~ 0
-MISO
+CIPO
 Wire Wire Line
 	3550 5900 3750 5900
 Wire Wire Line
