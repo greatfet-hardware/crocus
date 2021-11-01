@@ -39,4 +39,4 @@ Alternative pins may be selected with solder jumpers.
 
 ## I2C Address
 
-The default I2C address is 0x20.  Alternative addresses in the ranges 0x10-0x2F, 0x50-0x67, or 0x70-0x77 may be selected with solder jumpers.  Refer to the Crocus schematic and to the PCA9674 data sheet for details.
+The default I2C address is 0x27.  Alternative addresses in the ranges 0x10-0x2F, 0x50-0x67, or 0x70-0x77 may be selected with solder jumpers.  Refer to the Crocus schematic and to the PCA9674 data sheet for details.
